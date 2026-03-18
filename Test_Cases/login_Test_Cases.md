@@ -8,7 +8,7 @@
 **Description:** Verify successful login with valid username  
 **Pre-condition:** Browser open, on login page  
 **Steps:**  
-1. Enter username: standard_user || performance_glitch_user || visual_user
+1. Enter username: standard_user 
 2. Enter password: secret_sauce  
 3. Click Login  
 **Expected Result:** Redirect to Products page + "Swag Labs" title visible  
@@ -25,7 +25,7 @@
 1. Enter username: Dom44
 2. Enter password: secret_sauce  
 3. Click Login  
-**Expected Result:** invalid login massage shows  
+**Expected Result:** invalid username massage shows  
 **Actual Result:**   
 **Status:** [Pass/Fail]  
 **Screenshot:** 
@@ -39,7 +39,7 @@
 1. Enter username: 
 2. Enter password: secret_sauce  
 3. Click Login  
-**Expected Result:** invalid login massage shows  
+**Expected Result:** invalid username massage shows  
 **Actual Result:**   
 **Status:** [Pass/Fail]  
 **Screenshot:** 
@@ -53,7 +53,21 @@
 1. Enter username: standard_user
 2. Enter password: not_secret_sauce  
 3. Click Login  
-**Expected Result:** invalid login massage shows  
+**Expected Result:** invalid password massage shows  
+**Actual Result:**   
+**Status:** [Pass/Fail]  
+**Screenshot:** 
+
+**TC-05**  
+**Technique:** Decision Table  
+**Test Case ID:** LOGIN-05
+**Description:** Verify wrong login with locked_out_user  
+**Pre-condition:** Browser open, on login page  
+**Steps:**  
+1. Enter username: locked_out_user
+2. Enter password: secret_sauce  
+3. Click Login  
+**Expected Result:** locked out user massage   
 **Actual Result:**   
 **Status:** [Pass/Fail]  
 **Screenshot:** 
