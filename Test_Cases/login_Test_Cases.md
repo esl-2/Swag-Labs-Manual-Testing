@@ -12,8 +12,8 @@
 2. Enter password: secret_sauce  
 3. Click Login  
 **Expected Result:** Redirect to Products page + "Swag Labs" title visible  
-**Actual Result:**   
-**Status:** [Pass/Fail]  
+**Actual Result:** Redirect to Products page + "Swag Labs" title visible  
+**Status:** Pass
 **Screenshot:** 
 
 **TC-02**  
@@ -26,8 +26,8 @@
 2. Enter password: secret_sauce  
 3. Click Login  
 **Expected Result:** invalid username massage shows  
-**Actual Result:**   
-**Status:** [Pass/Fail]  
+**Actual Result:**  " Epic sadface: Username and password do not match any user in this service " message 
+**Status:** Pass
 **Screenshot:** 
 
 **TC-03**  
@@ -39,9 +39,9 @@
 1. Enter username: 
 2. Enter password: secret_sauce  
 3. Click Login  
-**Expected Result:** invalid username massage shows  
-**Actual Result:**   
-**Status:** [Pass/Fail]  
+**Expected Result:** username Required massage shows  
+**Actual Result:** "Epic sadface: Username is required" message 
+**Status:** Pass
 **Screenshot:** 
 
 **TC-04**  
@@ -54,8 +54,8 @@
 2. Enter password: not_secret_sauce  
 3. Click Login  
 **Expected Result:** invalid password massage shows  
-**Actual Result:**   
-**Status:** [Pass/Fail]  
+**Actual Result:**  " Epic sadface: Username and password do not match any user in this service " message 
+**Status:** Pass
 **Screenshot:** 
 
 **TC-05**  
@@ -68,6 +68,6 @@
 2. Enter password: secret_sauce  
 3. Click Login  
 **Expected Result:** locked out user massage   
-**Actual Result:**   
-**Status:** [Pass/Fail]  
+**Actual Result:** "Epic sadface: Sorry, this user has been locked out." message 
+**Status:** Pass
 **Screenshot:** 
