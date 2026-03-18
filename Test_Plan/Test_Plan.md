@@ -5,7 +5,7 @@ SWAG-TP-01
 
 ## 2. Introduction
 - Project: Swag Labs E-commerce Demo
-- Objective: training and experience 
+- Objective: To apply ISTQB Foundation Level black-box and experience-based techniques on a real e-commerce demo site and document defects 
 - Scope: Manual testing of the website's core functions through the UI using a brave browser
 
 ## 3. Test Items
@@ -24,7 +24,7 @@ server performance
 security 
 
 ## 5. Approach
-- Test Techniques: Black-Box (Decision Table) + Experience-based
+- Test Techniques: Black-Box (Equivalence Partitioning, Boundary Value Analysis, Decision Table Testing, State Transition Testing) + Experience-based (Error Guessing & Exploratory)
 - Test Levels: System Testing 
 
 ## 6. Test Deliverables
