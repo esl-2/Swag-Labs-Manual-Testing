@@ -39,7 +39,7 @@ Day 2: Execution & Bugs
 
 ## 9. Entry / Exit Criteria
 Entry : website is on , have information login 
-Exit Criteria : all test cases have been tested 
+Exit Criteria : all test cases have been tested ,Test Summary Report is delivered 
 
 ## 10. Approval
-clint 
+client 
